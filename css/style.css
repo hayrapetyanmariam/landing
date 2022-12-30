@@ -1,0 +1,779 @@
+
+:root{
+    --black: #1E1E1E;
+    --white: #fff;
+    --gray: #A4A5B2;
+}
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background: var(--black);
+    width: 1920px;
+    height: 4390px;
+}
+
+section{
+    padding:20px 302.98px;
+}
+
+/* -------header----- */
+
+.header .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo .img{
+    display: flex;
+}
+
+.header .inner .logo .img img{
+    position: relative;
+}
+
+.header .inner .logo .img i{
+    position:absolute;
+    color: white;
+    font-size: 1.5rem;
+    top: 26px;
+    left:308px ;
+}
+
+.header .inner .name p{
+    color: var(--white);
+    font-size: 2rem;
+    font-family: 'Source Sans Pro';
+} 
+
+.header .inner .name p span{
+    font-weight: bold;
+}
+
+.header .inner .btn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    padding: .5rem;
+    background: var(--black);
+    color: var(--white);
+    border: 1px solid #8276FF;
+    border-radius: 131px;
+    width: 175px;
+}
+
+@media(max-width: 1624px){
+    .header .inner .btn{
+        position: absolute;
+        left: 1200px;
+    }
+}
+
+@media(max-width: 1250px){
+    .header .inner .btn{
+        position: absolute;
+        left: 1000px;
+    }
+}
+
+@media(max-width: 969px){
+    .header .inner .btn{
+        position: absolute;
+        left: 750px;
+    }
+}
+
+@media(max-width: 767px){
+    .header .inner .btn{
+        position: absolute;
+        left: 550px;
+    }
+}
+
+/* -------home------ */
+
+.home .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .inner .box{
+    width: 48%;
+}
+
+.home .inner .box h1{
+    position: absolute;
+    width: 787px;
+    height: 138px;
+    left: 297px;
+    top: 211px;
+    font-family: 'Design';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 69px;
+    letter-spacing: 0.007em;
+    color: #FFC759;
+}
+
+.home .inner .box h1 span{
+    font-size: 35px;
+    color: var(--white);
+    font-family: 'Design';
+    font-style: normal;
+}
+
+.home .inner .box p{
+    position: absolute;
+    width: 247px;
+    height: 49px;
+    left: 299px;
+    top: 369px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+}
+
+.home .inner .box .save{
+    position: absolute;
+    width: 211px;
+    height: 54px;
+    left: 299px;
+    top: 459px;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.home .inner .box .check i{
+    position: absolute;
+    left: 300px;
+    right: 83.66%;
+    top: 534px;
+    bottom: 87.14%;
+    border: 1.13333px solid #8276FF;
+}
+
+.home .inner .box .check p{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    top: 533px;
+    left: 331px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.home .inner .box .icons .stars{
+    position: absolute;
+    padding: 6px 3px;
+    display: flex;
+    width: 67px;
+    left: 303px;
+    top: 622px;
+    background: #FDC600;
+    border-radius: 2.68009px;
+    color: var(--white);
+}
+
+.home .inner .box .icons p{
+    position: absolute;
+    left: 380px;
+    top: 616.07px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: var(--white);
+}
+
+.home .inner .box .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    top: 671.97px;
+    gap: 27px;
+}
+
+.home .inner .box .image .img1{
+    position: relative;
+    left: -48px;
+    top: 50px;
+}
+
+.home .inner .box .image .img2{
+    position: absolute;
+    left: 945px;
+    top: 275px;
+}
+
+@media(max-width: 1250px){
+    .home .inner .box .image{
+       display: none;
+    }
+}
+
+/* -------container-------- */
+
+.container h2{
+    position: absolute;
+    font-style: italic;
+    left: 643px;
+    top: 900px; 
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    color: var(--white);
+}
+
+.container h2 span{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.container .inner{
+    position: absolute;
+    display: flex;
+    gap: 208px;
+    top: 1065px;
+}
+
+.container .inner .box{ 
+    width: 537px;
+    height: 586px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+}
+
+.container .inner .box .discount h2{
+    position: absolute;
+    top: -25px;
+    left: 444px;
+    font-family: 'Design';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 104px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container .inner .box .discount img{
+    position: relative;
+    left: 345px;
+    top: -88px;
+}
+
+.container .inner .box .discount h2 span{
+    font-size: 39px;
+}
+
+.container .inner .box h3{
+    position: absolute;
+    top: 53px;
+    left: 196px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.007em;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.container .inner .box .price{
+    position: absolute;
+    top: 107px;
+    left: 166px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 157px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.007em;
+    color: var(--white);
+}
+
+.container .inner .box .price span{
+    position: absolute;
+    top: -37px;
+    left: -92px;
+    font-size: 31px;
+}
+
+.container .inner .box .price span .line{
+    position: absolute;
+    width: 74.55px;
+    left: -2px;
+    top: 80px;
+    border: 1.35685px solid #F354B4;
+    transform: matrix(0.96, -0.27, -0.27, -0.96, 0, 0);
+    background: #F354B4;
+}
+
+.container .inner .box .user{
+    position: absolute;
+    left: 171px;
+    top: 222px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.007em;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.container .inner .box .content .check1{
+    display: flex;
+}
+
+.container .inner .box .content .check2{
+    display: flex;
+}
+
+.container .inner .box .content .check3{
+    display: flex;
+}
+
+.container .inner .box .content .check1 i{
+    position: absolute;
+    top: 311px;
+    left: 166px;
+    color: green;
+}
+
+.container .inner .box .content .check1 p{
+    position: absolute;
+    top: 311px;
+    left: 197px;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.container .inner .box .content .check2 i{
+    position: absolute;
+    top: 351px;
+    left: 166px;
+    color: green;
+}
+
+.container .inner .box .content .check2 p{
+    position: absolute;
+    top: 351px;
+    left: 197px;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.container .inner .box .content .check3 i{
+    position: absolute;
+    top: 391px;
+    left: 166px;
+    color: green;
+}
+
+.container .inner .box .content .check3 p{
+    position: absolute;
+    top: 391px;
+    left: 197px;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.container .inner .box .deal{
+    position: absolute;
+    top: 469px;
+    left: 157px;
+    color: var(--white);
+    font-size: 20px;
+    padding: 14px 40px;
+    background: #8276FF;
+    border-radius: 31.0938px;
+}
+
+.container .inner .box .months{
+    position: absolute;
+    top: 533px;
+    left: 423px;
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 400;
+}
+
+@media(max-width:1624px){
+    .container .inner .box{
+       width: 400px;
+    }
+
+    .container .inner .box .discount img{
+        position: absolute;
+        left: 200px;
+        top: -88px;
+    }
+
+    .container .inner .box .discount h2{
+        position: absolute;
+        top: -25px;
+        left: 280px;
+    }
+}
+
+/* ------images---- */
+
+.images{
+    display: flex;
+}
+
+.images .inner{
+    position: absolute;
+    top: 1851px;
+    left: 201px;
+}
+
+/* .images .inner img{
+    width: 1510px;
+} */
+
+/* -----companies------ */
+
+.companies h3{
+    position: absolute;
+    top: 3437px;
+    left: 768px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 42px;
+    letter-spacing: 0.007em;
+    color: var(--white);
+}
+
+.companies .inner{
+    position: absolute;
+    top: 3529px;
+    left: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+/* -----------features--------- */
+
+.features h2{
+    position: absolute;
+    top: 2260px;
+    left: 760px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.007em;
+    color: var(--white);
+}
+
+.features span{
+    position: absolute;
+    top: 2320px;
+    left: 860px;
+    font-size: 27px;
+    font-style: italic;
+    color: #FFC759;
+}
+
+ .features .inner{
+    position: absolute;
+    width: 1322px;
+    height: 813px;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius: 26px;
+    top: 2424px;
+    left: 289px;
+}
+
+.features .inner .header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+    top: 81px;
+    left: 30px;
+}
+
+.features .inner .header .time i{
+    position: absolute;
+    left: 110px;
+    text-align: center;
+    color: #1ED0C6;
+    font-size: 30px;
+}
+
+.features .inner .header .time p{
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--white);
+    padding-top: 35px;
+    text-align: center ;
+    
+}
+
+.features .inner .header .monitoring i{
+    position: absolute;
+    left: 438px;
+    color: #2ECD6F;
+    font-size: 30px;
+}
+
+.features .inner .header .monitoring p{
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--white);
+    padding-top: 35px;
+    text-align: center;
+}
+
+.features .inner .header .task i{
+    position: absolute;
+    left: 709px;
+    color: #42A9F0;
+    font-size: 30px;
+}
+
+.features .inner .header .task p{
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--white);
+    padding-top: 35px;
+    text-align: center;
+}
+
+.features .inner .header .communication i{
+    position: absolute;
+    left: 988px;
+    color: #C54EFD;
+    font-size: 30px;
+}
+
+.features .inner .header .communication p{
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--white);
+    padding-top: 35px;
+    text-align: center;
+}
+
+.features .inner .header .hr i{
+    position: absolute;
+    left: 1238px;
+    font-size: 30px;
+    color: #FFBE5B;
+}
+
+.features .inner .header .hr p{
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--white);
+    padding-top: 35px;
+    text-align: center;
+}
+
+.features .inner .header hr{
+    border: 2px solid var(--white);
+    position: absolute;
+    top: 140px;
+    width: 1258px;
+}
+
+.features .inner .content .box{
+    display: flex;
+    width: 48%;
+}
+
+.features .inner .content .box h3{
+    position: absolute;
+    top: 306px;
+    left: 80px;
+    font-weight: 600;
+    font-size: 39px;
+    color: var(--white);
+}
+
+.features .inner .content .box .check{
+    position: absolute;
+    top: 440px;
+    left: 91px;
+}
+
+.features .inner .content .box .check .modes{
+    display: flex;
+}
+
+.features .inner .content .box .check .modes i{
+    color: green;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.features .inner .content .box .check .modes p{
+    font-size: 24px;
+    color: var(--white);
+}
+
+.features .inner .content .box .check .time-tracking{
+    display: flex;
+    padding-top: 16px;
+}
+
+.features .inner .content .box .check .time-tracking i{
+    color: green;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.features .inner .content .box .check .time-tracking p{
+    font-size: 24px;
+    color: var(--white);
+}
+
+.features .inner .content .box .check .tracking{
+    display: flex;
+    padding-top: 16px;
+}
+
+.features .inner .content .box .check .tracking i{
+    color: green;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.features .inner .content .box .check .tracking p{
+    font-size: 24px;
+    color: var(--white);
+}
+
+.features .inner .content .box .check .hours{
+    display: flex;
+    padding-top: 16px;
+}
+
+.features .inner .content .box .check .hours i{
+    color: green;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+
+.features .inner .content .box .check .hours p{
+    font-size: 24px;
+    color: var(--white);
+}
+
+.features .inner .content .box .seat{
+    position: absolute;
+    top: 700px;
+    left: 91px;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    width: 280px;
+    color: var(--white);
+    font-size: 27px;
+    padding: 1.2rem;
+}
+
+.features .inner .content .box img{
+    position: absolute;
+    top: 353px;
+    left: 762px;
+    box-shadow: -2.02256px 2.02256px 17.5289px rgba(55, 67, 78, 0.05);
+    border-radius: 6.74187px;   
+}
+
+
+@media(max-width: 1624px){
+    .features .inner{
+        position: absolute;
+        left: 200px;
+    }
+}
+
+@media(max-width: 1250px){
+    .features .inner{
+        position: absolute;
+        left: 150px;
+        width: 1000px;
+    }
+    .features .inner .box img{
+        display: none;
+    }
+}
+
+/* -----footer----- */
+
+.footer .inner{
+    position: absolute;
+    left: 0%;
+    width: 1920px;
+    height: 431px;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    top: 3907px;
+}
+
+.footer .inner h1{
+    position: absolute;
+    top: 119px;
+    left: 300px;
+    font-weight: 600;
+    font-size: 49px;
+    color: var(--white);
+}
+
+.footer .inner .discount{
+    position: absolute;
+    left: 300px;
+    top: 211px;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--white);
+    padding: 15px 40px;
+}
